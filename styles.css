@@ -1,15 +1,15 @@
-#id {
+#container {
 	margin: 20px;
 	
 }
 
-#id::before {
+#container::before {
 	content: "Before Element ";
 	color: #f00;
 	font-size: 20px
 }
 
-#id::after {
+#container::after {
 	content: " After Element";
 	color: #f00;
 	font-size: 20px
