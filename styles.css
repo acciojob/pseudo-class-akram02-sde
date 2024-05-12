@@ -1,1 +1,17 @@
-/*  your css code here. If applicable */
+#id {
+	margin: 20px;
+	
+}
+
+#id::before {
+	content: "Before Element ";
+	color: #f00;
+	font-size: 20px
+}
+
+#id::after {
+	content: " After Element";
+	color: #f00;
+	font-size: 20px
+	
+}
